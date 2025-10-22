@@ -5,16 +5,11 @@ import Layout from "@layout/Layout.tsx";
 export default function ContactPage() {
   return (
     <Layout>
-      <header class="mb-8">
-        <hgroup class="text-center">
-          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 pb-2 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent leading-tight">
-            Contato
-          </h1>
-          <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Sou Carlos Felipe Araújo, desenvolvedor Mobile e Front-end.
-          </p>
-        </hgroup>
-      </header>
+      <h1 class="text-4xl font-bold mb-4">Contato</h1>
+      <p class="mb-6">
+        Esta é página de contato. Sinta-se à vontade para entrar em contato
+        comigo através das seguintes opções:
+      </p>
 
       <ul class="list-none p-0 m-0 grid gap-3 mt-8">
         <li class="flex items-center gap-2">
